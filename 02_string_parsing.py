@@ -5,7 +5,6 @@ NetworkKings | Python for Network Automation
 Lecture 3 — Python Fundamentals | Practice Task 1
 
 Topic  : String methods — split(), f-strings, column alignment
-Author : Sucharita Chakraborty
 
 Real world use: Routers and switches output everything as raw text.
 To automate tasks, you must PARSE that text to extract just the
