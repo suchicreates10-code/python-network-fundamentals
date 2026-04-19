@@ -1,11 +1,10 @@
 """
 01_variables_and_types.py
 --------------------------
-NetworkKings | Python for Network Automation
-Lecture 3 — Python Fundamentals | Bronze Level exercises
+| Python for Network Automation
+Lecture 3 — Python Fundamentals | Exercises
 
 Topic  : Variables, Data Types, type(), dynamic typing, type conversion
-Author : Sucharita Chakraborty
 
 Run it : python 01_variables_and_types.py
 """
@@ -16,7 +15,7 @@ print("=" * 60)
 
 
 # ==============================================================
-# BRONZE 1 — Create variables for a network device
+# Create variables for a network device
 #
 # CONCEPT: Python has 4 basic data types you use constantly:
 #   str   → text         e.g. "CORE-SW-01"
@@ -27,7 +26,7 @@ print("=" * 60)
 # type() tells you what type a variable is.
 # ==============================================================
 
-print("\n--- BRONZE 1: Network device variables ---\n")
+print("\n--- 1: Network device variables ---\n")
 
 hostname        = "CORE-SW-01"       # str  — text in quotes
 mgmt_ip         = "10.10.10.1"       # str  — IPs are strings, not numbers
@@ -50,7 +49,7 @@ print(f"  is_backup_router = {is_backup_router!r:<20}  type: {type(is_backup_rou
 
 
 # ==============================================================
-# BRONZE 2 — BGP AS number conversion
+# 2 — BGP AS number conversion
 #
 # CONCEPT: Data from routers often comes as a STRING even if
 #          it looks like a number. You must convert it with int()
@@ -60,7 +59,7 @@ print(f"  is_backup_router = {is_backup_router!r:<20}  type: {type(is_backup_rou
 #   int  → 65100     (can add to this)
 # ==============================================================
 
-print("\n--- BRONZE 2: BGP AS number conversion ---\n")
+print("\n--- 2: BGP AS number conversion ---\n")
 
 bgp_as_raw = "65100"                 # comes as string from CLI output
 
@@ -81,14 +80,14 @@ print(f"  Formatted string: 'Next AS number: {next_as}'")
 
 
 # ==============================================================
-# BRONZE 3 — Dynamic typing
+#  3 — Dynamic typing
 #
 # CONCEPT: In Python, a variable can change its type at any time.
 #          This is called "dynamic typing". JavaScript and Python
 #          do this; Java and C do NOT.
 # ==============================================================
 
-print("\n--- BRONZE 3: Dynamic typing demonstration ---\n")
+print("\n--- 3: Dynamic typing demonstration ---\n")
 
 status = 1                           # starts as int
 print(f"  status = {status!r}   type: {type(status).__name__}")
@@ -104,7 +103,7 @@ print(f"  status = {status!r}    type: {type(status).__name__}")
 
 
 # ==============================================================
-# BRONZE 4 — MAC address format conversion
+# 4 — MAC address format conversion
 #
 # CONCEPT: .replace() swaps one character for another inside a string.
 #          Network gear uses different MAC formats:
@@ -115,7 +114,7 @@ print(f"  status = {status!r}    type: {type(status).__name__}")
 # Task: Convert AAAA:BBBB:CCCC → AAAA.BBBB.CCCC
 # ==============================================================
 
-print("\n--- BRONZE 4: MAC address format conversion ---\n")
+print("\n--- 4: MAC address format conversion ---\n")
 
 mac = "AAAA:BBBB:CCCC"
 print(f"  Original  : {mac}")
