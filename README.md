@@ -2,7 +2,7 @@
 
 My learning journal as I start Python for network automation.  
 Course: **NetworkKings — Python for Network Automation**  
-Author: Sucharita Chakraborty | Senior Engineering Consultant, Verizon India
+Author: Sucharita Chakraborty | Senior Engineering Consultant.
 
 ---
 
