@@ -2,10 +2,8 @@
 03_functions.py
 ---------------
 NetworkKings | Python for Network Automation
-Lecture 3 — Python Fundamentals | Silver + Gold Level exercises
-
+Lecture 3 — Python Fundamentals
 Topic  : Functions — def, return, default arguments, error handling
-Author : Sucharita Chakraborty
 
 WHAT IS A FUNCTION?
   A function is a reusable block of code with a name.
